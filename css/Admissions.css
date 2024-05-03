@@ -1,0 +1,180 @@
+.example {
+    background-image: url("../pics/volley.webp");
+    height: 600px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.change p {
+    padding: 50px 100px 50px 100px;
+    font-size: 20px;
+}
+
+.apply div {
+    background-color: black;
+    margin: 20px 30rem 20px 30rem;
+    color: white;
+}
+
+.apply div p {
+    padding-bottom: 60px;
+}
+
+.apply {
+    text-align: center;
+    text-decoration: none;
+}
+
+
+@media only screen and (max-device-width: 1366px) {
+    .change {
+        background-attachment: scroll;
+    }
+
+
+}
+
+@media (max-width: 480px) and (orientation: portrait) {
+    .body {
+        padding: 20px;
+    }
+
+    .flex {
+        flex-direction: column;
+    }
+
+    .left {
+        padding: 20px;
+    }
+
+    .right {
+        padding: 20px;
+    }
+
+    .right form input,
+    .right form textarea {
+        width: 100%;
+        margin-right: 0;
+        margin-left: 0;
+    }
+
+    input[type=submit] {
+        width: 100%;
+    }
+
+    .apply div {
+        margin: 20px auto;
+    }
+}
+
+@media (max-width: 767px) and (min-width: 481px) {
+
+    /* Your CSS styles for this media query */
+    .example,
+    .change {
+        padding: 10px;
+    }
+
+    .apply div {
+        margin: 10px auto;
+    }
+}
+
+
+@media (max-width: 480px) and (orientation: landscape) {
+
+    /* Adjust styles for landscape orientation */
+    .body {
+        padding: 20px;
+    }
+
+    .flex {
+        flex-direction: column;
+    }
+
+    .left,
+    .right {
+        padding: 20px;
+    }
+
+    .right form input,
+    .right form textarea {
+        width: 100%;
+        margin-right: 0;
+        margin-left: 0;
+    }
+
+    input[type=submit] {
+        width: 100%;
+    }
+
+    .apply div {
+        margin: 20px auto;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+    /* Your CSS styles for this media query */
+    .body {
+        padding: 50px;
+    }
+
+    .flex {
+        flex-direction: column;
+    }
+
+    .left,
+    .right {
+        padding: 20px;
+    }
+
+    .right form input,
+    .right form textarea {
+        width: 100%;
+        margin-right: 0;
+        margin-left: 0;
+    }
+
+    input[type=submit] {
+        width: 100%;
+    }
+
+    .apply div {
+        margin: 20px auto;
+    }
+}
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+
+    /* Your CSS styles for this media query */
+    .body {
+        padding: 50px;
+    }
+
+    .flex {
+        flex-direction: column;
+    }
+
+    .left,
+    .right {
+        padding: 20px;
+    }
+
+    .right form input,
+    .right form textarea {
+        width: 100%;
+        margin-right: 0;
+        margin-left: 0;
+    }
+
+    input[type=submit] {
+        width: 100%;
+    }
+
+    .apply div {
+        margin: 20px auto;
+    }
+}

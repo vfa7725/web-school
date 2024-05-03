@@ -1,0 +1,44 @@
+.center {
+    padding: 5rem 5rem;
+}
+
+.center div {
+    margin-bottom: 5rem;
+}
+
+.three ul li {
+    margin-top: 20px;
+}
+
+
+
+#grey {
+    background-color: gray;
+    padding: 5rem 2rem;
+}
+
+footer {
+    margin-top: -5rem;
+}
+
+body {
+    background: linear-gradient(135deg, #e0c383 0%, #c29393 50%, #ffffff 50%, #d0b9ea 100%);
+}
+
+.example {
+    background-image: url("../pics/runners.webp");
+    height: 600px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+@media only screen and (max-device-width: 1366px) {
+    .one {
+        background-attachment: scroll;
+    }
+
+}

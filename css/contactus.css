@@ -1,0 +1,270 @@
+.body {
+    padding: 100px 100px 100px 100px;
+    background-color: white;
+
+}
+
+.flex {
+    display: flex;
+
+    background-color: white;
+
+
+}
+
+.left {
+    background-color: black;
+    margin-left: 12rem;
+    padding: 0 50px 0 20px;
+    color: rgb(255, 255, 255);
+
+}
+
+iframe {
+    margin-left: 16rem;
+    width: (100% - 0px);
+
+}
+
+.left h2 {
+    padding-bottom: 50px;
+
+
+}
+
+.smaller {
+    font-size: 10px;
+    opacity: 0.6;
+    margin-bottom: 1px;
+}
+
+.bigger {
+    font-size: 11px;
+}
+
+.left div {
+    padding-top: 150px;
+}
+
+.left div i {
+    margin-right: 10px;
+}
+
+.right {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: whitesmoke;
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-bottom: 5px;
+    box-shadow: 10px 10px 10px 10px rgb(233, 231, 231);
+}
+
+.right h2 {
+    border-bottom: 1px gray solid;
+    padding-bottom: 20px;
+}
+
+.right form input {
+    margin-top: 5px;
+    margin-bottom: 20px;
+    height: 30px;
+}
+
+.right form textarea {
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+input[type=submit] {
+    background-color: black;
+    color: white;
+    border: none;
+    height: 100px;
+    width: 430px;
+    border-radius: 5px;
+}
+
+
+
+
+
+@media (max-width: 480px) and (orientation: portrait) {
+    .body {
+        padding: 20px;
+    }
+
+    .flex {
+        flex-direction: column;
+    }
+
+    .left {
+        margin-left: 0;
+        padding: 20px;
+    }
+
+    iframe {
+        margin-left: 0;
+        margin-top: 20px;
+        width: calc(100% - 0px);
+    }
+
+    .right {
+        margin-top: 20px;
+        padding: 20px;
+    }
+
+    .right form input,
+    .right form textarea {
+        width: calc(100% - 10px);
+        margin-bottom: 10px;
+    }
+
+    input[type="submit"] {
+        width: 100%;
+    }
+}
+
+@media (max-width: 767px) and (min-width: 481px) {
+    .body {
+        padding: 40px;
+    }
+
+    .flex {
+        flex-direction: column;
+    }
+
+    .left {
+        margin-left: 0;
+        padding: 20px;
+    }
+
+    iframe {
+        margin-left: 0;
+        margin-top: 20px;
+        width: calc(100% - 0px);
+    }
+
+    .right {
+        margin: 20px 0;
+        padding: 20px;
+    }
+
+    .right form input,
+    .right form textarea {
+        width: calc(100% - 10px);
+        margin-bottom: 15px;
+    }
+
+    input[type="submit"] {
+        width: 100%;
+    }
+}
+
+@media (max-width: 480px) and (orientation: landscape) {
+    .body {
+        padding: 40px;
+    }
+
+    .flex {
+        flex-direction: column;
+    }
+
+    .left {
+        margin-left: 0;
+        padding: 20px;
+    }
+
+    iframe {
+        margin-left: 0;
+        margin-top: 20px;
+        width: calc(100% - 0px);
+    }
+
+    .right {
+        margin: 20px 0;
+        padding: 20px;
+    }
+
+    .right form input,
+    .right form textarea {
+        width: calc(100% - 10px);
+        margin-bottom: 15px;
+    }
+
+    input[type="submit"] {
+        width: 100%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .body {
+        padding: 60px 80px;
+    }
+
+    .flex {
+        flex-direction: column;
+    }
+
+    .left {
+        margin-left: 0;
+        padding: 20px;
+    }
+
+    iframe {
+        margin-left: 0;
+        margin-top: 20px;
+        width: calc(100% - 0px);
+    }
+
+    .right {
+        margin: 20px 0;
+        padding: 20px;
+    }
+
+    .right form input,
+    .right form textarea {
+        width: calc(100% - 10px);
+        margin-bottom: 15px;
+    }
+
+    input[type="submit"] {
+        width: 100%;
+    }
+}
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+    .body {
+        padding: 80px 100px;
+    }
+
+    .flex {
+        flex-direction: column;
+    }
+
+    .left {
+        margin-left: 0;
+        padding: 30px;
+    }
+
+    iframe {
+        margin-left: 0;
+        margin-top: 30px;
+        width: calc(100% - 0px);
+    }
+
+    .right {
+        margin: 30px 0;
+        padding: 30px;
+    }
+
+    .right form input,
+    .right form textarea {
+        width: calc(100% - 10px);
+        margin-bottom: 20px;
+    }
+
+    input[type="submit"] {
+        width: 100%;
+    }
+}

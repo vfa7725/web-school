@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clearview Heights</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./css/Applynow.css">
+    <link rel="stylesheet" href="./css/index.css">
+
+
+</head>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a href="./index.html" class="title">
+                <div class="title-one">
+                    Clearview Heights
+                </div>
+            </a>
+
+
+            <ul>
+                <li><a href="about.html">About Us</a></li>
+
+                <li>
+                    <a href="#">More Info &#9663;</a>
+                    <ul class="dropdown">
+                        <li><a href="./Admissions.html">Admissions</a></li>
+                        <li><a href="./studentlife.html">Student Life</a></li>
+
+                    </ul>
+                </li>
+
+                <li><a class="login" href="./contactus.html">Contact Us</a></li>
+            </ul>
+
+            <a href="Applynow.html">
+                <div class="join">
+                    <h6>Apply Now</h6>
+                </div>
+            </a>
+        </nav>
+    </header>
+
+    <div class="form_container">
+        <form name="form" method="post" action="mailto:victor.arowosafe@yahoo.com">
+            <div class="form_wrap form_grp">
+                <div class="form_item">
+                    <label>First Name</label>
+                    <input type="text" required>
+
+                </div>
+                <div class="form_item">
+                    <label>Last Name</label>
+                    <input type="text" required>
+
+                </div>
+            </div>
+            <div class="form_wrap">
+                <div class="form_item">
+                    <label>Email Address</label>
+                    <input type="text" required id="emailInput" oninput="validateEmailInput()">
+                    <span id="emailFeedback" style="color: red;"></span>
+
+                </div>
+            </div>
+            <div class="form_wrap form_grp">
+                <div class="form_item">
+                    <label>Password</label>
+                    <input type="password" required id="passwordInput">
+
+                </div>
+                <div class="form_item">
+                    <label>Confirm Password</label>
+                    <input type="password" required id="confirmpasswordInput" oninput="validatePasswordInput()">
+                    <span id="passwordFeedback" style="color: red;"></span>
+
+                </div>
+            </div>
+            <div class="form_wrap">
+                <div class="form_item">
+                    <label>Gender</label>
+                    <select name="country" required>
+                        <option>Male</option>
+                        <option>Famale</option>
+                        <option>others</option>
+                    </select>
+                </div>
+            </div>
+            <div class="form_wrap">
+                <div class="form_item">
+                    <label>Phone</label>
+                    <input type="text" required>
+                    <div class="error" id="phone"></div>
+                </div>
+            </div>
+
+            <div class="btn" id="demo">
+                <input type="submit" value="Get Started">
+            </div>
+
+        </form>
+    </div>
+
+    <footer>
+
+        <div class="footer">
+            <div class="footer_1">
+                <h4>Clearview Heights</h4><br>
+                <p>4286 B Street, </p>
+                <p>Saint Paul, Minnesota MIN</p><br>
+                <p><a href="mailto:victor.arowosafe@yahoo.com">clearviewheights@yahoo.com</a></p><br>
+                <p>Phone: +91 9876543215</p>
+            </div>
+            <div class="footer_2">
+                <h4>Hours</h4><br>
+                <p>MONDAY - FRIDAY</p><br>
+                <p>9:00am - 4:00pm</p>
+            </div>
+            <div class="footer_3">
+                <h4>Social</h4><br>
+                <a href="https://www.instagram.com/_victor_safe/?igsh=ejB1d3E4c3R3eXRr&utm_source=q" target="_blank">
+                    <div><i class="fa fa-instagram"></i> Instagram</div>
+                </a><br>
+                <a href="https://twitter.com/i/flow/login?redirect_after_login=%2Frosafe_7" target="_blank">
+                    <div><i class="fa fa-twitter"></i> Twitter</div>
+                </a><br>
+                <a href="https://www.facebook.com/people/Victor-Arowosafe/pfbid07xzL1tR77ZFQKN8sZY2mjL3a1zbA263naFGsrLt84QBHptpW25gVNCCqxViVHrL5l/?mibextid=LQQJ4d%5C"
+                    target="_blank">
+                    <div><i class="fa fa-facebook"></i> Facebook</div>
+                </a>
+
+            </div>
+        </div>
+
+    </footer>
+
+    <script src="./javascript/Applynow.js"></script>
+
+</body>
+
+</html>
